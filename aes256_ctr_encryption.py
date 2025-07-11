@@ -148,7 +148,7 @@ def aes_ctr_encrypt_decrypt(data, key, nonce):
 if __name__ == "__main__":
     key = b"1234567890abcdef1234567890abcdef"
     nonce = b"123456789012"
-    plaintext = b"Hier kommt die supergeheime Nachricht, die keiner sehen darf!"
+    plaintext = b"This is an encryption example"
     
     ciphertext = aes_ctr_encrypt_decrypt(plaintext, key, nonce)
     print("Ciphertext (base64):", base64.b64encode(ciphertext).decode())
