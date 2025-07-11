@@ -1,4 +1,5 @@
 # AES-256 Encryption in CTR Mode (Manual Implementation)
+# Encryption module implementing AES-256 in CTR mode
 # 
 # - Algorithm: AES (Advanced Encryption Standard)
 # - Mode: CTR (Counter Mode) using 12-byte nonce + 4-byte counter
